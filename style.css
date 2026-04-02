@@ -1,0 +1,78 @@
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  background: #222;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-form input {
+  padding: 5px;
+}
+
+.search-form button {
+  padding: 5px;
+}
+
+.menu {
+  background: #444;
+  color: white;
+  padding: 10px;
+}
+
+.menu ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.main {
+  padding: 20px;
+}
+
+.banner img {
+   width: 100%;
+  height: 520px;
+  object-fit: cover;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+}
+
+.card {
+  background: #eee;
+  padding: 10px;
+  width: 200px;
+}
+
+.videos .card p {
+  width: 150px;
+  height: auto;
+}
+
+.artigos .card p {
+  color: black;
+}
+.card img {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+}
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.header {
+  position: sticky;
+  top: 0;
+}
